@@ -55,6 +55,10 @@ function show(label) {
   console.log(`${label}:`, this.value);
 }
 
+const showNew = (label) => {
+  console.log(label, this.value);
+};
+
 const ctx1 = { value: "Ctx1" };
 const ctx2 = { value: "Ctx2" };
 

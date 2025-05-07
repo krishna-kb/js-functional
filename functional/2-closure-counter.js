@@ -7,7 +7,9 @@ function makeCounter() {
 
 // demo
 const c1 = makeCounter();
-console.log(c1()); // 1
-console.log(c1()); // 2
+console.log(c1());
+console.log(c1());
+
+// Guess
 const c2 = makeCounter();
-console.log(c2()); // 1  (separate backpack)
+console.log(c2());
